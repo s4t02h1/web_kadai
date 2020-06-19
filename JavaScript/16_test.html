@@ -1,0 +1,25 @@
+<!DOVTYPE html>
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<div id= "t1"></div>
+<script>
+function kakunin() {
+  if (window.confirm("よろしいですか？")) {
+    return true;        // サブミットする、リンクする
+  } else {
+    return false;       // サブミットしない、リンクジャンプしない
+  }
+}
+</script>
+
+<a href="01_hello.html" onclick="return kakunin()">XXX</a>
+
+<form action="xxx.cgi">
+  <input type="submit" value="OK" onclick="return kakunin('OK');">
+</form>
+</body>
+オブジェクト作成
+</html>

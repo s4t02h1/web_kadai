@@ -1,0 +1,20 @@
+<!DOVTYPE html>
+<html>
+<head>
+<title>JavaScript</title>
+</head>
+<body>
+<div id= "t1"></div>
+<script>
+var storage = localStorage;
+for (var i = 0, len = storage.length; i < len; i++) {
+	var k = storage.key(i);
+	var v = storage[k];
+	console.log(k + ':' + v);
+	console.log(storage);
+}
+</script>
+</form>
+</body>
+ストレージ
+</html>
