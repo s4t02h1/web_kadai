@@ -6,7 +6,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
 body {
-    position:fixed
     margin: 0;
     padding: 0;
     background: #fff;
@@ -851,6 +850,7 @@ li.dropdown.act a.w3_icons_act {
     background: #fb383b;
 }
 button.top_shoe_cart {
+	position: fixed;
     font-size: 1.2em;
     color: #fff;
     border: none;
@@ -1182,11 +1182,13 @@ a.pinterest .front {
 .flickr-post ul li{
 	display:inline-block;
 	margin:7px 7px;
+	/*--margin:5px 5px;--*/
 }
 .flickr-post ul li {
     display: inline-block;
     margin: 1% 1%;
     width: 40%;
+    /*width: 28%;*/
 }
 p.copy-right-w3ls-agileits {
     color: #848484;
@@ -1642,7 +1644,7 @@ p.head_para {
         height: 503px;
     }
     .style-grids_main {
-        width: 100%;
+        width: 90%;
     }
     .newsletter_w3layouts_agile {
         padding: 2em 1em;
